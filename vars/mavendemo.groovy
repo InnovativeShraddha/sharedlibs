@@ -11,7 +11,7 @@ def call(reponame)
 	    
                steps{
 		 echo 'cloning..'
-                 git ${reponame}
+                 git "${reponame}"
               }
           }
           stage('Compile'){
